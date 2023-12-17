@@ -6,6 +6,7 @@ import { BrowserRouter } from "react-router-dom";
 import axios from "axios";
 import Header from "./assets/Header.jsx";
 import Footer from "./assets/Footer.jsx";
+
 axios.defaults.baseURL = "http://localhost:5001";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
