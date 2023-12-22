@@ -5,11 +5,9 @@ import ManageBooks from "./components/ManageBooks";
 import Create from "./components/create";
 import Home from "./components/home";
 import { Route, Routes } from "react-router-dom";
-
-import axios from "axios";
+import axios from 'axios'
 
 axios.defaults.baseURL = process.env.BASE_URL;
-
 function App() {
   return (
     <>
