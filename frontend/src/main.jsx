@@ -11,10 +11,6 @@ axios.defaults.baseURL = "http://localhost:5001";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <BrowserRouter>
-    <Header />
-    <div className="min-h-[96vh]">
       <App/>
-    </div>
-    <Footer />
   </BrowserRouter>
 );
