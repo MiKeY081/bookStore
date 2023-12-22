@@ -6,6 +6,10 @@ import Create from "./components/create";
 import Home from "./components/home";
 import { Route, Routes } from "react-router-dom";
 
+import axios from "axios";
+
+axios.defaults.baseURL = "http://localhost:5001";
+
 function App() {
   return (
     <>
