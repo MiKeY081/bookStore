@@ -2,8 +2,8 @@ import "./App.css";
 import DetailsPage from "./components/Details";
 import Edit from "./components/Edit";
 import ManageBooks from "./components/ManageBooks";
-import Create from "./components/create";
-import Home from "./components/home";
+import Create from "./components/Create";
+import Home from "./components/Home";
 import { Route, Routes } from "react-router-dom";
 import axios from 'axios'
 
