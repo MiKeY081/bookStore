@@ -19,7 +19,7 @@ app.use(cors({
 
 app.use("/api/v1/book",bookRoute)
 
-const PORT = process.env.PORT
-app.listen(PORT, ()=>{
+const PORT = process.env.PORT || 5000
+app.listen(PORT , ()=>{
     console.log("Server is running", PORT)
 })
