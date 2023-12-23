@@ -7,7 +7,7 @@ import Home from "./components/Home";
 import { Route, Routes } from "react-router-dom";
 import axios from 'axios'
 
-axios.defaults.baseURL = process.env.BASE_URL;
+axios.defaults.baseURL = "https://bookstore-backend-tau.vercel.app"
 function App() {
   return (
     <>
