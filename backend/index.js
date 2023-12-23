@@ -12,7 +12,7 @@ dbconnect()
 app.use(express.json())
 app.use(morgan("dev"))
 app.use(cors({
-    origin: "*",
+    origin: "https://bookstore-seven-nu.vercel.app",
     secure: true,
 }))
 
